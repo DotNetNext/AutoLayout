@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html ng-app="htmlapp">
+<head>
+    <link href="css/layout.css" rel="stylesheet" />
+    <script src="js/angular.js"></script>
+    <!--[if lt IE 9]>  
+　　　　<script src="js/css3-mediaqueries.js"></script>  
+<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+        var myAppModule = angular.module('htmlapp', []);
+        myAppModule.controller('TextController',
+        function ($scope) {
+            var someText = {};
+            someText.message = 'You have started your journey.';
+            $scope.someText = someText;
+        });
+
+    </script>
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h3>美女画画社区
+            </h3>
+        </header>
+        <article>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </article>
+
+        <footer>
+            <h3>@2015
+            </h3>
+        </footer>
+    </div>
+</body>
+</html>
