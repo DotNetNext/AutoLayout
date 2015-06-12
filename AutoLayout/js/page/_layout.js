@@ -19,7 +19,7 @@ function ($scope) {
 jqApp.controller($, function () {
 
     $("article .item").on("touchstart", function () {
-         alert(1)
+     
     })
 
 });

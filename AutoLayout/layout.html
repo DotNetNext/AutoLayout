@@ -21,16 +21,19 @@
 <body>
     <div id="container" ng-app="layoutApp">
         <header>
-            <h3 ng-controller="headController"> <img src="/img/common/lovely.png" />{{title}}
+            <h3 ng-controller="headController">
+                <img src="/img/common/lovely.png" />{{title}}
+                <button class="action-write-msg">发贴</button>
             </h3>
         </header>
         <article ng-controller="bodyController">
-                <ul>
-                    <li  class="item" ng-repeat="item in forum">
-                        <p class="title">{{item.title}}</p>
-                        <p class="img"><img src="img/forumicon/{{item.img}}" /></p>
-                    </li>
-                </ul>
+            <ul>
+                <li class="item" ng-repeat="item in forum">
+
+                    <p class="img"><img src="img/forumicon/{{item.img}}" /></p>
+                    <p class="title">{{item.title}}</p>
+                </li>
+            </ul>
         </article>
 
         <footer>

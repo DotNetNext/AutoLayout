@@ -3,10 +3,13 @@ ul,li{margin:0;padding:0;list-style:none;}
 html{font-size: 100%;}
 body{font-size: 1.0em;}
 header h3{background: url(/img/common/line1.png) ; background-repeat:repeat-x;height: 3em;line-height: 3em;margin: 0;padding: 0;color: white;width: 100%; text-align:center}
-header h3 img{ position:relative; top:0.3em}
+header h3 img{ position:relative; top:0.8em; float:left; margin-left:0.5em}
+header h3 .action-write-msg {  position:relative; top:0.8em;float: right;text-align: center; height: 2.5em;color: #fff; line-height: 0.5em;font-size: .875rem;border: 1px solid #e86b0f;border-radius: 4px; padding: 0 1.5em;background-color: #ff8200; margin-right:0.5em}
+
 article{position: fixed; overflow-y:scroll; top:4em; width: 100%; height:calc(100% - 100px);  }
 article>ul{text-align:center;}
-article>ul li{  display:inline-block; background:#fff; width:40%;height:8em; border-radius:2em; margin:0.5em;line-height:2em; border:solid #f60 0.2em }
+article>ul li{  display:inline-block; background:#fff; width:40%;height:8em; border-radius:10%; margin:0.5em;line-height:2em; border:solid #fef 0.2em }
 article>ul li:hover{ border:0.2em  dashed red}
-article>ul li .title{ font-weight:bold; padding-bottom:0.5em}
+article>ul li img{margin-top:1em}
+article>ul li .title{ font-weight:bold;}
 footer h3{background: url(/img/common/line1.png);position: absolute;height: 1.5em;line-height: 1.5em;margin: 0;padding: 0;color: white;width: 100%;text-align: center;bottom: 0em;clear: both; background-repeat:repeat-x;}

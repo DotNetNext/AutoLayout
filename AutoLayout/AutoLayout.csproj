@@ -131,6 +131,7 @@
     <Content Include="img\common\bg1.jpg" />
     <Content Include="img\common\line1.png" />
     <Content Include="img\common\lovely.png" />
+    <Content Include="img\common\zhonger.gif" />
     <Content Include="img\forumicon\forumicon_20.jpg" />
     <Content Include="img\forumicon\forumicon_35.jpg" />
     <Content Include="img\forumicon\forumicon_38.jpg" />
