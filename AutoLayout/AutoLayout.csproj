@@ -136,12 +136,12 @@
     <Content Include="img\forumicon\forumicon_35.jpg" />
     <Content Include="img\forumicon\forumicon_38.jpg" />
     <Content Include="img\forumicon\forumicon_43.jpg" />
+    <Content Include="js\lib\angular.js" />
+    <Content Include="js\lib\css3-mediaqueries.js" />
     <Content Include="js\lib\jquery-2.1.4.min.js" />
     <Content Include="js\page\_app.js" />
     <Content Include="js\page\_layout.js" />
     <Content Include="layout.html" />
-    <Content Include="js\lib\css3-mediaqueries.js" />
-    <Content Include="js\lib\angular.js" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
