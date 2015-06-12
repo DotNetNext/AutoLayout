@@ -123,12 +123,18 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="css\_layout.css" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="img\common\logo.png" />
+    <Content Include="img\common\bg1.jpg" />
+    <Content Include="img\common\line1.png" />
+    <Content Include="img\common\lovely.png" />
+    <Content Include="img\forumicon\forumicon_20.jpg" />
+    <Content Include="img\forumicon\forumicon_35.jpg" />
+    <Content Include="img\forumicon\forumicon_38.jpg" />
+    <Content Include="img\forumicon\forumicon_43.jpg" />
     <Content Include="js\lib\jquery-2.1.4.min.js" />
     <Content Include="js\page\_app.js" />
     <Content Include="js\page\_layout.js" />

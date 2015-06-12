@@ -9,8 +9,17 @@ function ($scope) {
         { title: "画画交流", img: "forumicon_20.jpg" },
         { title: "临摹素材", img: "forumicon_20.jpg" },
         { title: "临摹素材", img: "forumicon_20.jpg" },
+        { title: "临摹素材", img: "forumicon_35.jpg" },
+        { title: "临摹素材", img: "forumicon_38.jpg" },
         { title: "临摹素材", img: "forumicon_20.jpg" },
         { title: "临摹素材", img: "forumicon_20.jpg" },
         { title: "临摹素材", img: "forumicon_20.jpg" }];
 })
- 
+
+jqApp.controller($, function () {
+
+    $("article .item").on("touchstart", function () {
+         alert(1)
+    })
+
+});

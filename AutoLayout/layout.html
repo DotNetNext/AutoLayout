@@ -21,12 +21,12 @@
 <body>
     <div id="container" ng-app="layoutApp">
         <header>
-            <h3 ng-controller="headController">{{title}}
+            <h3 ng-controller="headController"> <img src="/img/common/lovely.png" />{{title}}
             </h3>
         </header>
         <article ng-controller="bodyController">
                 <ul>
-                    <li ng-repeat="item in forum">
+                    <li  class="item" ng-repeat="item in forum">
                         <p class="title">{{item.title}}</p>
                         <p class="img"><img src="img/forumicon/{{item.img}}" /></p>
                     </li>
