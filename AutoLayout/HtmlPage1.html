@@ -1,42 +1,48 @@
-﻿<!doctype html>
-<html ng-app="htmlapp">
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <link href="css/layout.css" rel="stylesheet" />
-    <script src="js/angular.js"></script>
-    <!--[if lt IE 9]>  
-　　　　<script src="js/css3-mediaqueries.js"></script>  
-<![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script>
-        var myAppModule = angular.module('htmlapp', []);
-        myAppModule.controller('TextController',
-        function ($scope) {
-            var someText = {};
-            someText.message = 'You have started your journey.';
-            $scope.someText = someText;
-         });
-         
-    </script>
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档-SH!</title>
+<style>
+ul,li{
+margin:0;
+padding:0;
+list-style:none;
+}
+#area{
+width:70%;
+height:80px;
+background-color:#eee;
+text-align:center;
+overflow:hidden;
+ background:#b6ff00
+}
+#area ul{
+float:left;
+position:relative;
+left:50%;
+width:70%;
+}
+#area ul li{
+float:left;
+margin:10px;
+padding:0 10px;
+position:relative;
+right:50%;
+line-height:60px;
+border:solid 1px #000;
+width:20%
+}
+</style>
 </head>
 <body>
-    <div id="container">
-        <header>
-            <h3>美女画画社区
-            </h3>
-        </header>
-        <article>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </article>
-
-        <footer>
-            <h3>@2015
-            </h3>
-        </footer>
-    </div>
+<h1>跨浏览器实现float:center</h1>
+<div id="area">
+<ul >
+<li>列表一,我是浮动的</li>
+<li>列表二</li>
+<li>列表三</li>
+<li>这里可能是N</li>
+</ul>
+</div>
 </body>
 </html>

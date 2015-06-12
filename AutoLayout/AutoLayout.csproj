@@ -123,14 +123,18 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="css\layout.css" />
+    <Folder Include="img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\_layout.css" />
     <Content Include="HtmlPage1.html" />
-    <Content Include="HtmlPage2.html" />
-    <Content Include="HtmlPage3.html" />
-    <Content Include="js\css3-mediaqueries.js" />
-    <Content Include="js\angular.js" />
+    <Content Include="js\lib\jquery-2.1.4.min.js" />
+    <Content Include="js\page\_app.js" />
+    <Content Include="js\page\_layout.js" />
+    <Content Include="layout.html" />
+    <Content Include="js\lib\css3-mediaqueries.js" />
+    <Content Include="js\lib\angular.js" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

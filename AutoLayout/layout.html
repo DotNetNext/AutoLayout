@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html>
+<head>
+    <link href="/css/_layout.css" rel="stylesheet" />
+    <script src="/js/lib/angular.js"></script>
+    <script src="/js/lib/jquery-2.1.4.min.js"></script>
+    <!--[if lt IE 9]>  
+　　　　<script src="js/css3-mediaqueries.js"></script>  
+<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--   
+     【content】参数:
+     width:可视区域的宽度，值可为数字,关键词device-width为设备宽度
+     height:同width
+     intial-scale:页面首次被显示是可视区域的缩放级别，取值1.0则页面按实际尺寸显示，无任何缩放
+     maximum-scale=1.0, minimum-scale=1.0;可视区域的缩放级别，
+     maximum-scale用户可将页面放大的程序，1.0将禁止用户放大到实际尺寸之上。
+     user-scalable:是否可对页面进行缩放，no 禁止缩放-->
+
+</head>
+<body>
+    <div id="container" ng-app="layoutApp">
+        <header>
+            <h3 ng-controller="headController">{{title}}
+            </h3>
+        </header>
+        <article ng-controller="bodyController">
+                <ul>
+                    <li ng-repeat="item in forum">
+                        <p class="title">{{item.title}}</p>
+                        <p class="img"><img src="img/forumicon/{{item.img}}" /></p>
+                    </li>
+                </ul>
+        </article>
+
+        <footer>
+            <h3>@2015
+            </h3>
+        </footer>
+    </div>
+</body>
+</html>
+<script src="/js/page/_app.js"></script>
+<script src="/js/page/_layout.js"></script>
